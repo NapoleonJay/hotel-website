@@ -28,6 +28,10 @@ a {
 }
 
 .clr {
+	clear: both;
+}
+
+#main-footer {
 	display: block-inline;
 	background: #333;
 	color: #f4f4f4;
@@ -130,13 +134,12 @@ a {
 
 /* hotel info */
 #info-content {
-min-height: 400px;
+height: 400px;
 }
 
 #info-content .info-img {
+	background: url(../img/photo-1.jpg)no-repeat center center/cover;
 	float: left;
-	display: block;
-	background: url('../img/person-1.jpg') no-repeat;
 	width: 50%;
 	min-height: 100%;
 }
@@ -145,6 +148,7 @@ min-height: 400px;
 	float: right;
 	width: 50%;
 	padding: 50px 30px;
+	height: 400px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -155,12 +159,12 @@ min-height: 400px;
 }
 
 #info-content .info-text p {
-margin-bottom: 1.2em;
+margin-bottom: 1.7em;
 padding: 0 20px;
 }
 
 /* Features */
-.box {
+.boxes {
 	float: left;
 	padding: 20px;
 	width: 33.3%;
