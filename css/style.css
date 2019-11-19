@@ -20,6 +20,9 @@ a {
 /* utility classes */
 .container {
 	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;
 }
 
 .lead {
@@ -50,7 +53,7 @@ a {
 }
 
 .bg-light {
-	background: #fff;
+	background: #f4f4f4;
 	color: #333;
 }
 
@@ -84,6 +87,7 @@ a {
 
 /* navbar */
 #navbar {
+	position: sticky;
 	background: #333;
 	color: #f4f4f4;
 	overflow: auto;
@@ -135,13 +139,14 @@ a {
 /* hotel info */
 #info-content {
 height: 400px;
+width: 100%;
 }
 
 #info-content .info-img {
 	background: url(../img/photo-1.jpg)no-repeat center center/cover;
 	float: left;
 	width: 50%;
-	min-height: 100%;
+	height: 400px;
 }
 
 #info-content .info-text {
@@ -164,8 +169,37 @@ padding: 0 20px;
 }
 
 /* Features */
-.boxes {
+.box {
 	float: left;
-	padding: 20px;
 	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* About-Info: This section talks all about our hotel*/
+#info-about {
+	width: 100%;
+	min-height: 400px;
+	overflow: auto;
+}
+
+#info-about .info-right {
+	float: right;
+	width: 50%;
+	min-height: 100%;
+}  
+
+#info-about .info-right img {
+	display: block;
+	min-height: 70%;
+	margin: auto;
+	border-radius: 50%;
+}
+
+#info-about .info-left {
+float: left;
+width: 50%;
+min-height: 100%;
 }
