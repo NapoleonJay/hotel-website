@@ -42,15 +42,6 @@ a {
 	clear: both;
 }
 
-#main-footer {
-	display: block-inline;
-	background: #333;
-	color: #f4f4f4;
-	text-align: center;
-	clear: both;
-	padding: 20px;
-}
-
 .text-primary {
 	color: #f7c08a;
 }
@@ -72,7 +63,7 @@ a {
 
 .btn {
 	display: inline-block;
-	background: #444;
+	background: #333;
 	padding: 12px 15px;
 	font-size: 18px;
 	border: none;
@@ -182,7 +173,7 @@ padding: 0 20px;
 	width: 33.3%;
 	padding: 50px;
 	text-align: center;
-	height: 100%;
+
 	overflow: hidden;
 }
 
@@ -234,3 +225,38 @@ min-height: 100%;
 	padding: 5px 10px;
 }
 
+/* Contact Section: this is the section where we provide our information and means of contacting us */
+#contact .form-group {
+	margin-bottom: 20px;
+}
+
+#contact .form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px #ddd solid;	
+}
+
+#contact .form-group textarea {
+	height: 200px;
+}
+
+#contact .form-group input:focus,
+#contact .form-group textarea:focus {
+	outline: none;
+	border-color: #f7c08a;
+}
+#main-footer {
+	display: block-inline;
+	background: #444;
+	color: #f4f4f4;
+	text-align: center;
+	clear: both;
+	padding: 20px;
+}
